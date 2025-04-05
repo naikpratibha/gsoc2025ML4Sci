@@ -6,9 +6,14 @@ Astronomical data often takes the form of images, so expertise in computer visio
 
 # Clustering Results curve - General Test
 
+Protoplanetary disks are the sites of planet formation. The most recent generation of telescopes is able to resolve these objects in sufficient detail for the rigorous study of their properties, leading to a dramatic and rapid advancement in planet formation theory. Using synthetic observations that mimic data obtained from these observatories has allowed researchers to understand how specific conditions will manifest themselves in observations.
+
+
 <img width="633" alt="Clustering Results curve" src="https://github.com/user-attachments/assets/c62f64a3-729f-4bdd-9b71-dc0dfb8df00a" />
 
 
 # ROC Curve - Sequential Test
+
+Astronomers have several methods at our disposal to detect exoplanets. Historically, many of the first exoplanets to be discovered were found via the radial velocity method. Using super-precise and ultra-well calibrated instruments, astronomers searched for the tiny wobble in the star's speed caused by the planet's orbit. Other methods at exoplanet astronomers' disposals include detecting gravitational lensing due to a planet (called the microlensing method), searching for the wobble in the star's position on the sky (called the astrometric method), and separating the light of the star from the planet and actually taking images (called the direct imaging method). One of the most successful methods to detect exoplanets is using light curves. Several thousand planets have been discovered this way. The basic idea is that exoplanets crossing in front of their host stars will obscure part of the star, which decreases the amount of light that we see from that star. By carefully measuring the brightness over time, planets can be identified by the periodic dimming. The extent of the dimming depends on the specific parameters of the stellar system.
 
 <img width="527" alt="ROC curve" src="https://github.com/user-attachments/assets/a7ce6c41-38e7-4ab8-a23a-d8232531978f" />
