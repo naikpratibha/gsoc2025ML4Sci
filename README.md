@@ -25,7 +25,11 @@ The density or accumulation of these clusters indicates an increased probability
 Region 1 (Violet): Exhibits the highest density of clustering, indicating a greater likelihood of planet presence.
 Region 3 (Light Green): Shows the lowest cluster density, suggesting a lower probability of detecting a planet in that area.
 
-The provided planetary data is incomplete, as some FITS files contain null or missing values at the 0th index of certain dimensions. This may affect the accuracy of the model and needs to be handled during preprocessing or data cleaning stages.
+The provided planetary data is incomplete, as some FITS files contain null or missing values at the 0th index of certain dimensions. This may affect the accuracy of the model and needs to be handled during preprocessing or data cleaning stages.\
+
+# Summary:
+
+GMM revealed five clusters in t-SNE space (-10 to 10). High cluster density in Region 1 (Violet) suggests a higher chance of planet presence, while Region 3 (Light Green) indicates lower probability. Some FITS files have null values at index 0, requiring preprocessing for accurate results.
 
 # ROC Curve - Sequential Test
 
@@ -33,7 +37,7 @@ Astronomers have several methods at our disposal to detect exoplanets. Historica
 
 <img width="527" alt="ROC curve" src="https://github.com/user-attachments/assets/a7ce6c41-38e7-4ab8-a23a-d8232531978f" />
 
-Model Evaluation and Observations:
+# Model Evaluation and Observations:
 
 A sample evaluation was conducted using n = 10 data points.
 
@@ -44,13 +48,13 @@ Y-axis: True Positive Rate (range: 0.0 to 1.0)
 
 The model demonstrates excellent performance with an AUC (Area Under Curve) of 0.99, highlighting its high capability to distinguish between positive and negative classes.
 
-Light Curve Analysis:
+# Light Curve Analysis:
 
 A separate graph was plotted with brightness vs. time, where a noticeable dip in brightness was observed.
 
 This dip indicates a potential transit event, which can be interpreted as the presence of a planet passing in front of a star—an essential cue in exoplanet detection.
 
-Summary:
+# Summary:
 
 The L-shaped ROC curve signifies that the model maintains a low false positive rate while achieving a high true positive rate.
 
