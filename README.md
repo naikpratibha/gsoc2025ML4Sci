@@ -11,6 +11,21 @@ Protoplanetary disks are the sites of planet formation. The most recent generati
 
 <img width="633" alt="Clustering Results curve" src="https://github.com/user-attachments/assets/c62f64a3-729f-4bdd-9b71-dc0dfb8df00a" />
 
+# Observations from GMM Clustering and Data Analysis:
+
+After applying Gaussian Mixture Modeling (GMM), five distinct clusters were observed through a 2D plot.
+
+The clusters are visualized within a range of:
+
+x-axis (t-SNE 1): -10 to 10
+y-axis (t-SNE 2): -10 to 10
+
+The density or accumulation of these clusters indicates an increased probability of the presence of a planet in those regions of the feature space. Notably:
+
+Region 1 (Violet): Exhibits the highest density of clustering, indicating a greater likelihood of planet presence.
+Region 3 (Light Green): Shows the lowest cluster density, suggesting a lower probability of detecting a planet in that area.
+
+The provided planetary data is incomplete, as some FITS files contain null or missing values at the 0th index of certain dimensions. This may affect the accuracy of the model and needs to be handled during preprocessing or data cleaning stages.
 
 # ROC Curve - Sequential Test
 
